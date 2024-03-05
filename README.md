@@ -4,6 +4,8 @@ This repo is meant to provide a basic template to help organize code, data, repo
 
 This repo is set up to run as an app in a docker containter. It is currently set to `python` but you can change the language and the launch script.
 
+The repo is already configured to be used as a template. On GitHub, click **Use this template** at the top right to create your own project based on this one.
+
 ## Project Checklist
 
 **Project Scope**
@@ -68,7 +70,7 @@ then:
 pipreqs --ignore .venv --scan-notebooks --force
 ```
 
-if you encounter issues with connecting to pipy, you can change the server by adding the following: `--pypi-server <url>`
+If you encounter issues with connecting to pipy, you can change the server by adding the following: `--pypi-server <url>`
 
 ## Docker
 
