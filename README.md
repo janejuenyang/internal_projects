@@ -1,10 +1,10 @@
-# Project Outline
+# Project Template
 
-This repo is meant to provide a basic template to help organize code, data, reports related to a particular project.
+This is a Template. On GitHub, click **Use this template** at the top right to create your own project based on this one.
 
-This repo is set up to run as an app in a docker containter. It is currently set to `python` but you can change the language and the launch script.
+This template repo is meant to provide a basic structure to help organize code, data, and reports related to a particular project for the ACF Data Surge Team.
 
-The repo is already configured to be used as a template. On GitHub, click **Use this template** at the top right to create your own project based on this one.
+This repo is set up to run as an app in a docker containter, although not required. It is currently set to `python` but you can change the language and the launch script.
 
 ## Project Checklist
 
@@ -22,16 +22,16 @@ The repo is already configured to be used as a template. On GitHub, click **Use 
 
 * [ ] Create Scrum Project
   * [ ] Use the following project title nomenclature: `ACF - <project name in ACF Confluence>`
-  * [ ] For the Key, start with ACF and use the remainder of the first letters. Example: `ACFDS`
-* [ ] Create Epics (think deliverables)
-* [ ] Create Stories in backlog (think features/components)
-* [ ] Create Tasks in backlog (think tasks to complete Stories)
+  * [ ] For the Key, start with ACF and use the remainder of the first letters for each word. Example: `ACFDS`
+* [ ] Create Epics in timeline (think deliverables)
+* [ ] Create Stories in backlog (think features/components of the deliverable)
+* [ ] Create Tasks in backlog (think the tasks to complete Stories)
 * [ ] Create Sprint (1 week)
-* [ ] Create code review Tasks, if needed
-* [ ] Assign Stories and Tasks to sprint and team members (weekly)
+* [ ] Create code review Tasks, as needed
+* [ ] Assign Stories and Tasks to sprint and team members (weekly basis)
 * [ ] Run Sprints weekly, move incomplete items to a new sprint
-* [ ] Document as part of the sprints, it'll make things easier
-* [ ] Update status slide (weekly)
+* [ ] Document as part of the sprints, it'll make things easier later
+* [ ] Update status slide by Close of Business Thursdays (weekly)
 
 **Meetings with Customer**
 
@@ -39,6 +39,7 @@ The repo is already configured to be used as a template. On GitHub, click **Use 
 * [ ] Take meeting notes
 * [ ] Take note of actions for you/team and for the customer
 * [ ] Take note of completion dates for these actions
+* [ ] Paste notes into Project Confluence page
 
 **Project closeout**
 
@@ -51,6 +52,8 @@ The repo is already configured to be used as a template. On GitHub, click **Use 
 * [ ] Capture feedback through thought collector document and integrate to lessons learned
 * [ ] Conduct internal retrospective discussion and integrate to lessons learned
 * [ ] Make changes to this repo and projects based on lessons learned if any
+* [ ] Provide Deliverables to customer
+* [ ] Validate that all Deliverables are accepted by the customer
 
 ## Coding Standards
 
@@ -58,13 +61,13 @@ Reference the [ACF Data Surge Team coding standards](https://github.com/HHS/acf-
 
 ## Requirements
 
-To ensure app dependencies are ported from your virtual environment/host machine into your container, run:
+To ensure app dependencies are ported from your virtual environment/host machine into your container, run the following command:
 
 ```bash
 pip install pipreqs
 ```
 
-then:
+Then run:
 
 ```bash
 pipreqs --ignore .venv --scan-notebooks --force
@@ -76,7 +79,7 @@ If you encounter issues with connecting to pipy, you can change the server by ad
 
 I like running things in linux. Docker makes it standardized through configuration files like `.dockerignore`, `docker-compose.yml`, and `Dockerfile`.
 
-You can delete the docker files along with the .vscode folder containing launch.json and tasks.json if they're not needed
+You can delete the docker files along with the .vscode folder containing launch.json and tasks.json if they're not needed for the project.
 
 ### VSCode extension
 
@@ -90,7 +93,7 @@ This will ignore files and folders when building the container image.
 
 ### docker-compose
 
-Use to build and execute the docker container from the image.
+Use the following command to build and execute the docker container:
 
 ```bash
 docker compose -f "docker-compose.yml" up -d --build
