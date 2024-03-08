@@ -8,21 +8,28 @@ This repo is set up to run as an app in a docker containter, although not requir
 
 ## Project Checklist
 
-**Project Scope**
+Below is a checklist of items to work on for a project. This is to help you reference, stay organized and on top of the work. There's some upfront lift needed to scope and set up the project but the intent is that it flows smoothly and predictable for you afterwards.
 
+Copy this checklist to a suitable location for your use. You can also edit the markdown file to check the individual boxes.
+
+**Project Scoping Document Outline**
+
+* [ ] Title
 * [ ] Overview
 * [ ] Objectives
-* [ ] Scope and Activities
-* [ ] Deliverables and Timeframes
+* [ ] Scope and Approach
+* [ ] Partnership Model
+* [ ] Deliverables
+* [ ] Timeline
 * [ ] Assumptions
-* [ ] Stakeholders
+* [ ] Roles
 * [ ] Revise, as needed
 
 **Jira Project**
 
 * [ ] Create Scrum Project
   * [ ] Use the following project title nomenclature: `ACF - <project name in ACF Confluence>`
-  * [ ] For the Key, start with ACF and use the remainder of the first letters for each word. Example: `ACFDS`
+  * [ ] For the Key, start with ACF and use the remainder of the first letters for each word on the title. Example: `ACFDS`
 * [ ] Create Epics in timeline (think deliverables)
 * [ ] Create Stories in backlog (think features/components of the deliverable)
 * [ ] Create Tasks in backlog (think the tasks to complete Stories)
@@ -33,7 +40,7 @@ This repo is set up to run as an app in a docker containter, although not requir
 * [ ] Document as part of the sprints, it'll make things easier later
 * [ ] Update status slide by Close of Business Thursdays (weekly)
 
-**Meetings with Customer**
+**Meetings with Customers**
 
 * [ ] Have an agenda (if customer hosted, propose one)
 * [ ] Take meeting notes
@@ -51,9 +58,9 @@ This repo is set up to run as an app in a docker containter, although not requir
 * [ ] Project Brief, if needed
 * [ ] Capture feedback through thought collector document and integrate to lessons learned
 * [ ] Conduct internal retrospective discussion and integrate to lessons learned
-* [ ] Make changes to this repo and projects based on lessons learned if any
 * [ ] Provide Deliverables to customer
 * [ ] Validate that all Deliverables are accepted by the customer
+* [ ] Make changes to this repo and projects based on lessons learned, if any
 
 ## Coding Standards
 
