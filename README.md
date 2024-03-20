@@ -80,7 +80,7 @@ Then run:
 pipreqs --ignore .venv --scan-notebooks --force
 ```
 
-If you encounter issues with connecting to pipy, you can change the server by adding the following: `--pypi-server <url>`
+If you encounter issues with connecting to pypi, you can change the server by adding the following: `--pypi-server <url>`
 
 ## Docker
 
