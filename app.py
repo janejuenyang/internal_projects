@@ -11,13 +11,14 @@ def console_printing_fcn(the_string: str) -> None:
     """Simple function that prints a string.
 
     Args:
+    -----
         the_string (str): The string to print.
 
     Returns:
+    --------
         None: This function doesn't return anything, only prints to console.
     """
     print(the_string)
-    return None
 
 
 console_printing_fcn("Hello World")
